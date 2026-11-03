@@ -1,0 +1,31 @@
+# Genomic source reads, references, intermediate files, derived private/large outputs
+/data/*
+!/data/README.md
+/results/*
+!/results/README.md
+/logs/*
+!/logs/.gitkeep
+# Allow small, finalized visual reports after reviewing file sizes and data privacy
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+
+/.local_backup/
+/.local_backup/
+
+# Local backups and temporary packages
+/.local_backup/
+/ngs_chr19_variant_stage/
+/na12878_benchmark_review/
+/ngs_benchmark_delivery/
+/ngs_benchmark_next/
+/ngs_finalization_pack/
+*.zip
+*.tgz
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/

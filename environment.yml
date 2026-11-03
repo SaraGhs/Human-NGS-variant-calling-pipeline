@@ -1,0 +1,16 @@
+name: ngs-variant-portfolio
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - fastqc
+  - multiqc
+  - trimmomatic
+  - bwa
+  - samtools
+  - bcftools
+  - gatk4
+  - matplotlib
+  - openjdk=17

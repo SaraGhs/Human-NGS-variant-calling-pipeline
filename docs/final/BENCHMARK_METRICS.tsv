@@ -1,0 +1,5 @@
+region	type	truth_total	truth_tp	truth_fn	query_total	query_fp	query_unknown	precision	recall	f1
+30 kb	SNP	15	15	0	18	0	3	1.0	1.0	1.0
+30 kb	INDEL	6	6	0	10	0	4	1.0	1.0	1.0
+200 kb	SNP	331	331	0	349	0	18	1.0	1.0	1.0
+200 kb	INDEL	53	53	0	85	0	31	1.0	1.0	1.0
